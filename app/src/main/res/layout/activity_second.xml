@@ -5,12 +5,42 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <EditText android:id="@+id/etNombre2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nombres" />
-    <EditText android:id="@+id/etApellido2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Apellidos" />
-    <EditText android:id="@+id/etDividendo2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Dividendo" android:enabled="false"/>
-    <EditText android:id="@+id/etDivisor2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Divisor" android:enabled="false"/>
-    <EditText android:id="@+id/etNum2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="num" android:enabled="false"/>
+    <EditText
+        android:id="@+id/etNombre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
 
-    <Button android:id="@+id/btnSiguiente2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Siguiente"/>
-    <Button android:id="@+id/btnCerrar2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cerrar" android:enabled="false"/>
+    <EditText
+        android:id="@+id/etApellido2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/etNum1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Primer Numero" />
+
+    <EditText
+        android:id="@+id/etNum2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Segundo Numero " />
+
+    <Button
+        android:id="@+id/btnSiguiente2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/btnCerrar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Cerrar" />
 </LinearLayout>

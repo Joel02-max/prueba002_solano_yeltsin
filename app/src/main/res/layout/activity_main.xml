@@ -20,39 +20,39 @@
         android:hint="Apellidos" />
 
     <EditText
-        android:id="@+id/etDividendo"
+        android:id="@+id/etPrimerNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:hint="Dividendo" />
+        android:hint="PrimerNumero" />
 
     <EditText
-        android:id="@+id/etDivisor"
+        android:id="@+id/etSegundoNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:hint="Divisor" />
+        android:hint="SegundoNumero" />
 
     <EditText
-        android:id="@+id/etParteEntera"
+        android:id="@+id/etMultiplicacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:hint="Parte Entera" />
+        android:hint="Multiplicacion" />
 
     <EditText
-        android:id="@+id/etResiduo"
+        android:id="@+id/etPotenciacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:hint="Residuo" />
+        android:hint="Potenciacion" />
 
     <EditText
-        android:id="@+id/etNumInvertido"
+        android:id="@+id/etFactorial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:hint="Num. Invertido" />
+        android:hint="Factorial" />
 
     <Button
         android:id="@+id/btnSiguiente"
